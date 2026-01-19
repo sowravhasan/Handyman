@@ -104,6 +104,16 @@ body {
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
 
+/* Logo Visibility Fix */
+.logo-enhanced {
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.15));
+    /* Alternative options - uncomment to use instead: */
+    /* border: 1px solid rgba(0, 0, 0, 0.1); */
+    /* border-radius: 8px; */
+    /* background: rgba(249, 250, 251, 0.8); */
+    /* padding: 8px; */
+}
+
 /* Hero Slider Styles */
 .hero-slider {
     position: relative;
